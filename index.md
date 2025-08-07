@@ -18,7 +18,7 @@ $$
 }
 $$
 
-I am a CS undergrad at Yale University, primarily interested in programming languages and proof assistants.
+I am a CS undergrad at Yale, primarily interested in programming languages and proof assistants.
 
 ### Links
 
