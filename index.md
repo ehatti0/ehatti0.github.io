@@ -13,3 +13,8 @@ $$
 $$
 
 I am a CS undergrad at Yale University, primarily interested in programming languages and proof assistants.
+
+### Links
+
+- [Github](https://github.com/ehatti0)
+- [LinkedIn](https://www.linkedin.com/in/eashan-hatti-777387288)
