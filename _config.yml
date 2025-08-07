@@ -1,6 +1,0 @@
-title: "Eashan Hatti"
-description: ""
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
