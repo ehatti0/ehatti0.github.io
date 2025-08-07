@@ -16,5 +16,5 @@ I am a CS undergrad at Yale University, primarily interested in programming lang
 
 ### Links
 
-- [Github](https://github.com/ehatti0)
+- [Github](https://github.com/ehatti)
 - [LinkedIn](https://www.linkedin.com/in/eashan-hatti-777387288)
