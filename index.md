@@ -10,8 +10,8 @@ I'm a CS undergrad at Yale, primarily interested in programming languages and pr
 
 {% for post in site.posts %}
   <hr>
-  <article style="width: 90%">
-    <h3>{{ post.title }} -- {{ post.date | date: "%B %-d, %Y" }}</h3>
+  <article style="width: 90%; margin: 0 auto">
+    <h3>{{ post.title }} — {{ post.date | date: "%B %-d, %Y" }}</h3>
     {% if post.excerpt %}
       <p>{{ post.excerpt }}</p>
     {% endif %}
