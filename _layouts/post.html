@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<strong>{{ page.date }}</strong>
+<h2>{{ page.title }} -- {{ page.date | date: "%B %-d, %Y" }}</h2>
 <hr>
 {{ content }}

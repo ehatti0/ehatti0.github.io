@@ -15,10 +15,17 @@ I am a CS undergrad at Yale, primarily interested in programming languages and p
 
 ## Posts
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:10 %}
+  <article class="post-preview">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%B %d, %Y" }}
+      </time>
+    </p>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}">Read more →</a>
+  </article>
+{% endfor %}
