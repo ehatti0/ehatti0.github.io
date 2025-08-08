@@ -1,6 +1,6 @@
 ---
+layout: post
 title: Fun with $\epsilon$-calculi
-date: 2025-08-07
 ---
 
 A while back I did some quick research on quantifier elimination in FOL, which led me to the extremely interesting $\epsilon$-calculi! For those not familiar with Hilbert's $\epsilon$ operator, it is a term-forming operator satisfying the following axiom.
