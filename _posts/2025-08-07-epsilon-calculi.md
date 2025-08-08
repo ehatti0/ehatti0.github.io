@@ -3,7 +3,7 @@ layout: post
 title: Fun with $\epsilon$-calculi
 ---
 
-A while back I did some quick research on quantifier elimination in FOL, which led me to the extremely interesting $\epsilon$-calculi! For those not familiar with Hilbert's $\epsilon$ operator, it is a term-forming operator satisfying the following axiom.
+A while back I got interested in quantifier elimination in FOL, which led me to the extremely interesting $\epsilon$-calculi! For those not familiar with Hilbert's $\epsilon$ operator, it is a term-forming operator satisfying the following axiom.
 
 $$
 \dfrac{
@@ -37,4 +37,4 @@ $$
 }
 $$
 
-A potential application: Skolemization is a well-understood way of eliminating $\exists$ quantifiers in automated theorem provers. I wonder if $\epsilon$ is a cleaner and/or more correct way of doing that?
+A potential application: Skolemization is a well-understood way of eliminating $\exists$ quantifiers in automated theorem provers. I wonder if $\epsilon$ is a cleaner and/or more correct way of doing that while also eliminating $\forall$ in the process?
