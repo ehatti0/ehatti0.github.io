@@ -8,11 +8,24 @@ $$
 
 I am a CS undergrad at Yale, primarily interested in programming languages and proof assistants.
 
-### Links
+## Links
 
 - [Github](https://github.com/ehatti)
 - [LinkedIn](https://www.linkedin.com/in/eashan-hatti-777387288)
 
-### Posts
+## Posts
 
-- [Fun with $\epsilon$-calculi](posts/epsilon_calculi.html) (August 2025)
+{% for post in site.posts %}
+  <article class="post-preview">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%B %d, %Y" }}
+      </time>
+    </p>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}">Read more →</a>
+  </article>
+{% endfor %}
