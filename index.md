@@ -24,3 +24,7 @@ I am a CS undergrad at Yale, primarily interested in programming languages and p
 
 - [Github](https://github.com/ehatti)
 - [LinkedIn](https://www.linkedin.com/in/eashan-hatti-777387288)
+
+### Posts
+
+- [Fun with $\epsilon$-calculi](posts/epsilon_calculi.html) (August 2025)
