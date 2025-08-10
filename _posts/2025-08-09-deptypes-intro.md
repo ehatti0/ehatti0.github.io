@@ -14,7 +14,7 @@ union int_or_char_data {
 }
 struct int_or_char {
     enum int_or_char_tag tag;
-    struct int_or_char_data data;
+    union int_or_char_data data;
 }
 ```
 
