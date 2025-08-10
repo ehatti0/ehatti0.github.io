@@ -24,7 +24,7 @@ Let's imagine we added dependent types to C. This is what a safer version of the
 ```c
 struct int_or_char {
     enum int_or_char_tag tag;
-    (int_or_char_tag == INT_TAG ? int : char) data;
+    (tag == INT_TAG ? int : char) data;
 }
 ```
 Dependent types allow types to be **computed** from data which may only be known at runtime. In this example the type of `data` is now an _expression_ which reads the `tag` field and returns either `int` or `char`. This new type would prevent us from making a mistake:
